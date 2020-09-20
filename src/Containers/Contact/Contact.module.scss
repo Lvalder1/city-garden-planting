@@ -1,0 +1,26 @@
+@import "../../variables";
+
+div::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -56px; 
+    height: 56px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+  }
+
+  .fontawesome {
+    color: green;
+    margin: 0 30px !important;
+
+      &:hover {
+        transform: scale(1.5);
+      }
+  }
