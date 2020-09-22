@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styles from "./TheService.module.scss";
+import Contact from '../Contact';
 
 export default class TheService extends Component {
     render() {
@@ -25,6 +26,7 @@ export default class TheService extends Component {
                         Plants die off and fail to thrive in less than ideal conditions. Or the garden doesn’t suit your family needs.
                         The garden may not need a complete re-laying out but just a good refresh and input of new interest for you.
                         I am very happy to work with you in refreshing and reviving your existing garden.</p>
+            <Contact />
             </div>
         )
     }

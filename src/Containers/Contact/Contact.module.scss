@@ -1,14 +1,4 @@
 @import "../../variables";
-
-div::before { 
-    display: block; 
-    content: " "; 
-    margin-top: -56px; 
-    height: 56px; 
-    visibility: hidden; 
-    pointer-events: none;
-  }
-
   .contact {
     display: flex;
     align-items: center;
