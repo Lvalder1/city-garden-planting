@@ -3,33 +3,12 @@
 .home {
     width: 100vw;
 
-    p {
-        color: $font-color;
-    }
 }
 
-// .imgcontainer {
-//     position: relative;
-//     text-align: center;
-//     color: white;
-// }
-
-.centeredtxt {
-    position: absolute;
-    text-align: center;
-    vertical-align: middle;
-    color: white;
+body { 
+    padding-top: 56px; 
+    
 }
 
-.landingimg {
-    position: relative;
-    background-image: url(../../Images/img_3335.jpg);
-    background-size: cover;
-    width: auto;
-    height: 80vw;
-    overflow: hidden;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
+
 
