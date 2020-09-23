@@ -2,7 +2,7 @@
 
 .home {
     width: 100vw;
-    padding: 0 66px;
+    padding: $background-padding;
 }
 
 .imgCenter {
@@ -30,7 +30,7 @@ h1 {
                 height: 100%;
                 transition: 1s;
                     &:hover {
-                        transform: scale(1.5);
+                        transform: scale(1.2);
                     }
             }
 }

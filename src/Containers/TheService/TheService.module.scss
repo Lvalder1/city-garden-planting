@@ -1,2 +1,8 @@
 @import "../../variables";
 
+.service {
+    padding: $background-padding;
+        h2 {
+            padding: $heading-padding;
+        }
+}
