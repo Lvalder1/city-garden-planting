@@ -21,13 +21,19 @@ export default class Home extends Component {
                     totam voluptatum nulla a incidunt! Reiciendis?</p>
                 <div className={styles.middleImgs}>
                     <div className={styles.column}>
-                        <img src={img02} alt="img_02"></img>
+                        <a href={img02} target="_blank" rel="noopener noreferrer">
+                            <img src={img02} alt="img_02"></img>
+                        </a>
                     </div>
                     <div className={styles.column}>
-                        <img src={img03} alt="img_03"></img>
+                        <a href={img03} target="_blank" rel="noopener noreferrer">
+                            <img src={img03} alt="img_03"></img>
+                        </a>
                     </div>
                     <div className={styles.column}>
-                        <img src={img04} alt="img_04"></img>
+                        <a href={img04} target="_blank" rel="noopener noreferrer">
+                            <img src={img04} alt="img_04"></img>
+                        </a>
                     </div>
                 </div>
                 <Contact />
