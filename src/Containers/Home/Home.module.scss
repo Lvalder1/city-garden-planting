@@ -2,8 +2,18 @@
 
 .home {
     width: 100vw;
-
+    padding: 0 66px;
 }
+
+.imgCenter {
+    display: flex;
+    justify-content: center;    
+        img {
+            width: 80vw;
+            height: auto;
+    }
+}
+
 
 
 
