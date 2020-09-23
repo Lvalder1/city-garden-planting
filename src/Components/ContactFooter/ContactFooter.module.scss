@@ -1,0 +1,18 @@
+@import "../../variables";
+
+  .contact {
+    display: flex;
+    height: 70px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .fontawesome {
+    color: green;
+    margin: 0 30px !important;
+    padding: 5px;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+  }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styles from "./Home.module.scss";
-import Contact from '../Contact';
+import ContactFooter from "../../Components/ContactFooter";
 import img01 from "../../Images/img_01.png";
 import img02 from "../../Images/img_02.jpg";
 import img03 from "../../Images/img_03.jpg";
@@ -36,7 +36,7 @@ export default class Home extends Component {
                         </a>
                     </div>
                 </div>
-                <Contact />
+                <ContactFooter />
             </div>
         )
     }

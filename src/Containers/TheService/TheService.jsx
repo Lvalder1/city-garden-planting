@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styles from "./TheService.module.scss";
-import Contact from '../Contact';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSeedling} from '@fortawesome/free-solid-svg-icons';
 
@@ -58,7 +57,6 @@ export default class TheService extends Component {
                             I am very happy to work with you in refreshing and reviving your existing garden.</p>
                     </div>
                 </div>
-            <Contact />
             </div>
         )
     }
