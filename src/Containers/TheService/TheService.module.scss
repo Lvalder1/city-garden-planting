@@ -2,7 +2,23 @@
 
 .service {
     padding: $background-padding;
-        h2 {
-            padding: $heading-padding;
-        }
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+.iconTextBox {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+
+    .iconBox {
+        flex: 25%;
+        text-align: center;
+    }
+
+    .textBox {
+        flex: 75%;
+    }
 }
