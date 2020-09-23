@@ -11,6 +11,14 @@ export default class Home extends Component {
                 <div className={styles.imgCenter}>
                     <img src={img01} alt="img_01"></img>
                 </div>
+                <h1>City Garden Planting</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Expedita dolores nobis architecto ex quisquam nesciunt officia 
+                    enim exercitationem quam veniam ratione odit aliquam minus, 
+                    totam voluptatum nulla a incidunt! Reiciendis?</p>
+                <div className={styles.middleImgs}>
+                    <img></img>
+                </div>
                 <Contact />
             </div>
         )
