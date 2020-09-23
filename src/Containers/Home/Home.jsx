@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import styles from "./Home.module.scss";
 import Contact from '../Contact';
-import img01 from "../../Images/img_01.png"
+import img01 from "../../Images/img_01.png";
+import img02 from "../../Images/img_02.jpg";
+import img03 from "../../Images/img_03.jpg";
+import img04 from "../../Images/img_04.jpg";
 
 
 export default class Home extends Component {
@@ -17,7 +20,15 @@ export default class Home extends Component {
                     enim exercitationem quam veniam ratione odit aliquam minus, 
                     totam voluptatum nulla a incidunt! Reiciendis?</p>
                 <div className={styles.middleImgs}>
-                    <img></img>
+                    <div className={styles.column}>
+                        <img src={img02} alt="img_02"></img>
+                    </div>
+                    <div className={styles.column}>
+                        <img src={img03} alt="img_03"></img>
+                    </div>
+                    <div className={styles.column}>
+                        <img src={img04} alt="img_04"></img>
+                    </div>
                 </div>
                 <Contact />
             </div>
