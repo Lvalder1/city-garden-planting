@@ -1,3 +1,4 @@
+@import "../../variables";
 
 .App {
   width: 100vw;
@@ -6,5 +7,9 @@
 
 body {
   padding-top: 82px;
+}
+
+p {
+  font-size: $font-size;
 }
 
