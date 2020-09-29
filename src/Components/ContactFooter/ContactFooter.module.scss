@@ -13,11 +13,16 @@
   .instagram {
     display: flex;
     flex-direction: row;
+
   }
       
   #contactEmail, #contactInstagram {
+    display: flex;
+    flex-direction: row;
     text-decoration: none !important;
     color: $font-color !important;
+    font-size: $font-size-contact;
+    align-items: center;
     
     &:hover {
       transform: scale(1.1);
@@ -26,8 +31,7 @@
 
   .fontawesome {
     color: green;
-    margin: 0 5px !important;
-    padding: 5px;
+    margin-right: 5px !important;
   }
 
   @media only screen and (max-width: 600px) {
