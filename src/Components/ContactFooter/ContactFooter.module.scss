@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    overflow: hidden;
   }
   .email {
     display: flex;
@@ -13,7 +14,21 @@
   .instagram {
     display: flex;
     flex-direction: row;
+  }
+  .email:hover #contactEmail {
+    transform: scale(1.1);
+  }
 
+  .email:hover .fontawesome {
+    transform: scale(1.1);
+  }
+
+  .instagram:hover #contactInstagram {
+    transform: scale(1.1);
+  }
+     
+  .instagram:hover .fontawesome {
+    transform: scale(1.1);
   }
       
   #contactEmail, #contactInstagram {
@@ -23,15 +38,12 @@
     color: $font-color !important;
     font-size: $font-size-contact;
     align-items: center;
-    
-    &:hover {
-      transform: scale(1.1);
-    }
+    padding-left: 10px;
   }
 
   .fontawesome {
     color: green;
-    margin-right: 5px !important;
+    margin: 10px !important;
   }
 
   @media only screen and (max-width: 600px) {
