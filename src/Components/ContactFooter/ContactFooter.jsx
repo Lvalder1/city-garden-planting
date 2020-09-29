@@ -8,6 +8,9 @@ export default class ContactFooter extends Component {
     render () {
         return (
             <div className={styles.contact} id="contactFooter">
+                <div className={styles.contactVia}>
+                    <p>For any enquires please contact Carolyn</p>
+                </div>
                 <div className={styles.email}>
                     <FontAwesomeIcon icon={faEnvelopeSquare} className={styles.fontawesome} /><a href="mailto:cwvalder@gmail.com" id={styles.contactEmail}>cwvalder@gmail.com</a>
                 </div>
