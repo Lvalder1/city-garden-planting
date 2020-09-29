@@ -8,8 +8,12 @@ export default class ContactFooter extends Component {
     render () {
         return (
             <div className={styles.contact} id="contactFooter">
-                <a href="mailto:cwvalder@gmail.com"><FontAwesomeIcon icon={faEnvelopeSquare} size="2x" className={styles.fontawesome} /></a>
-                <FontAwesomeIcon icon={faInstagramSquare} size="2x" className={styles.fontawesome} />  
+                <div className={styles.email}>
+                    <FontAwesomeIcon icon={faEnvelopeSquare} size="2x" className={styles.fontawesome} /><a href="mailto:cwvalder@gmail.com">cwvalder@gmail.com</a>
+                </div>
+                <div className={styles.instagram}>
+                    <FontAwesomeIcon icon={faInstagramSquare} size="2x" className={styles.fontawesome} /><a href="https://www.instagram.com/carolynvalder/">instagram.com/carolynvalder/</a> 
+                </div>
             </div>
         )
     }

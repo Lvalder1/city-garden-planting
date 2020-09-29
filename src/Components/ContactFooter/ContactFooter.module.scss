@@ -2,19 +2,28 @@
 
   .contact {
     display: flex;
-    height: 70px;
     flex-direction: column;
     justify-content: space-around;
+  }
+  .email {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .instagram {
+    display: flex;
+    flex-direction: row;
+  }
+      
+  a {
+    text-decoration: none !important;
+    color: $font-color !important;
   }
 
   .fontawesome {
     color: green;
-    margin: 0 30px !important;
+    margin: 0 5px !important;
     padding: 5px;
-
-      &:hover {
-        transform: scale(1.1);
-      }
   }
 
   @media only screen and (max-width: 600px) {
