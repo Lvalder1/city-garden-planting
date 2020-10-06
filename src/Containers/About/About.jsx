@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styles from "./About.module.scss";
+import ContactFooter from "../../Components/ContactFooter";
 
 
 export default class About extends Component {
@@ -20,6 +21,7 @@ export default class About extends Component {
                     I work with homeowners, local architects and landscape design builders to provide 
                     planting schemes to suit the lifestyle and personality of the homeowners.
                     My aim is to provide you with a tranquil haven that works with your lifestyle.</p>
+                <ContactFooter />
             </div>
         )
     }

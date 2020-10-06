@@ -3,6 +3,7 @@ import styles from "./ContactFooter.module.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeSquare} from '@fortawesome/free-solid-svg-icons';
 import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
+import CV from '../../Images/CV Louis Valder.pdf';
 
 export default class ContactFooter extends Component {
     render () {
@@ -14,8 +15,13 @@ export default class ContactFooter extends Component {
                 <div className={styles.email}>
                     <FontAwesomeIcon icon={faEnvelopeSquare} className={styles.fontawesome} /><a href="mailto:cwvalder@gmail.com" id={styles.contactEmail}>cwvalder@gmail.com</a>
                 </div>
-                <div className={styles.instagram}>
-                    <FontAwesomeIcon icon={faInstagramSquare} className={styles.fontawesome} /><a href="https://www.instagram.com/carolynvalder/" id={styles.contactInstagram}>instagram.com/carolynvalder/</a> 
+                <div className={styles.instagramLouis}>
+                    <div className={styles.instagram}>
+                        <FontAwesomeIcon icon={faInstagramSquare} className={styles.fontawesome} /><a href="https://www.instagram.com/carolynvalder/" id={styles.contactInstagram}>instagram.com/carolynvalder/</a> 
+                    </div>
+                    <div className={styles.louis}>
+                        <p>Website created by <a href={CV} target="_blank" rel="noopener noreferrer">Louis Valder</a></p>
+                    </div>
                 </div>
             </div>
         )

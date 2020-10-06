@@ -58,6 +58,20 @@
     padding-left: 10px;
   }
 
+  .instagramLouis {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .louis {
+    width: 100%;
+    text-align: right;
+      a {
+        text-decoration: none !important;
+        color: $font-color !important;
+      }
+  }
+
   .fontawesome {
     color: green;
     
