@@ -10,16 +10,16 @@ export default class ContactFooter extends Component {
         return (
             <div className={styles.contact} id="contactFooter">
                 <div className={styles.contactVia}>
-                    <p>For any enquires please contact Carolyn</p>
+                    <p>If you would like to enquire about any of these services, do please email me at:</p>
                 </div>
                 <div className={styles.email}>
                     <FontAwesomeIcon icon={faEnvelopeSquare} className={styles.fontawesome} /><a href="mailto:cwvalder@gmail.com" id={styles.contactEmail}>cwvalder@gmail.com</a>
                 </div>
-                <div className={styles.instagramLouis}>
+                <div className={styles.instagramFooter}>
                     <div className={styles.instagram}>
                         <FontAwesomeIcon icon={faInstagramSquare} className={styles.fontawesome} /><a href="https://www.instagram.com/carolynvalder/" id={styles.contactInstagram}>instagram.com/carolynvalder/</a> 
                     </div>
-                    <div className={styles.louis}>
+                    <div className={styles.createdBy}>
                         <p>Website created by <a href={CV} target="_blank" rel="noopener noreferrer">Louis Valder</a></p>
                     </div>
                 </div>
