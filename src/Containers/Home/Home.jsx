@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import styles from "./Home.module.scss";
 import ContactFooter from "../../Components/ContactFooter";
 import img01 from "../../Images/img_01.png";
-import img02 from "../../Images/img_02.jpg";
-import img03 from "../../Images/img_03.jpg";
-import img04 from "../../Images/img_04.jpg";
+// import img02 from "../../Images/img_02.jpg";
+// import img03 from "../../Images/img_03.jpg";
+// import img04 from "../../Images/img_04.jpg";
 
 
 export default class Home extends Component {
@@ -15,11 +15,7 @@ export default class Home extends Component {
                     <img src={img01} alt="img_01"></img>
                 </div>
                 <h1>City Garden Planting</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Expedita dolores nobis architecto ex quisquam nesciunt officia 
-                    enim exercitationem quam veniam ratione odit aliquam minus, 
-                    totam voluptatum nulla a incidunt! Reiciendis?</p>
-                <div className={styles.middleImgs}>
+                {/* <div className={styles.middleImgs}>
                     <div className={styles.column}>
                         <a href={img02} target="_blank" rel="noopener noreferrer">
                             <img src={img02} alt="img_02"></img>
@@ -35,7 +31,7 @@ export default class Home extends Component {
                             <img src={img04} alt="img_04"></img>
                         </a>
                     </div>
-                </div>
+                </div> */}
                 <ContactFooter />
             </div>
         )
