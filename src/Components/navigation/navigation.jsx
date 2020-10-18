@@ -18,7 +18,7 @@ export default class Navigation extends Component {
                     <Nav.Link href="home">Home</Nav.Link>
                     <Nav.Link href="about">About</Nav.Link>
                     <Nav.Link href="service">The Service</Nav.Link>
-                    <Nav.Link href="inspiration">Inspiration</Nav.Link>
+                    {/* <Nav.Link href="inspiration">Inspiration</Nav.Link> */}
                     <Nav.Link href="contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
