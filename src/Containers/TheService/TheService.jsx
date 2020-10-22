@@ -6,7 +6,8 @@ import ContactFooter from "../../Components/ContactFooter";
 
 export default class TheService extends Component {
     render() {
-        return (  
+        return (
+            <>  
             <div className={styles.service} id="service">
                 <h1>The Service</h1>
                 <div className={styles.iconTextBox}>
@@ -94,8 +95,9 @@ export default class TheService extends Component {
                             happy to accompany clients on plant purchase expeditions in the west London area.</p>
                     </div>
                 </div>
-                <ContactFooter />
             </div>
+            <ContactFooter />
+            </>
             );
         }
     }

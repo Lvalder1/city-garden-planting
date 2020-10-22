@@ -9,6 +9,7 @@ import img04 from "../../Images/img_04.jpg";
 export default class About extends Component {
     render() {
         return (
+            <>
             <div className={styles.about}>
                 <h1 id="about">City Garden Planting – Carolyn Valder</h1>
                 <div className={styles.middleImgs}>
@@ -42,8 +43,9 @@ export default class About extends Component {
                         gardening creativity. You may wish to only be involved in a small part of maintaining your garden - planting bulbs, potting up planters or adding in some seasonal 
                         updates – I am happy to help build your confidence in all of these aspects.</p>
                     </div>
-                <ContactFooter />
             </div>
+            <ContactFooter />
+            </>
         )
     }
 }
