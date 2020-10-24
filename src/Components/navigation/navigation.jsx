@@ -3,14 +3,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import styles from "./navigation.module.scss";
 import 'bootstrap/dist/css/bootstrap.css';
+import websiteLogo from '../../Images/city-garden-planting-logo.png';
 
 export default class Navigation extends Component {
     render () {
         return (
             <Navbar bg="light" expand="sm" fixed="top" className={styles.nav}>
                 <Navbar.Brand className={styles.brand}>
-                    <p id={styles.brandTop}>Carolyn Valder</p>
-                    <p id={styles.brandBottom}>City Garden Planting</p>
+                    <img src={websiteLogo} alt="websiteLogo"></img>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

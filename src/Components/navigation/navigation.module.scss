@@ -5,14 +5,10 @@
 }
 
 .brand {
-    padding: 0 20px 0 50px;
-   #brandTop{ 
-        display: flex;
-        justify-content: center;
-   }
-        #brandBottom {
-            font-size: smaller;
-        }
+    img {
+        width: 10vw;
+        height: auto;
+    }
 }  
 
 
