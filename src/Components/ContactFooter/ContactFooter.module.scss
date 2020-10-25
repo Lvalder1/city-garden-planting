@@ -18,9 +18,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 10px !important;
       
       a {
-          font-size: 15px !important;
+          font-size: 25px !important;
           align-items: center;
         }
   }
@@ -34,21 +36,21 @@
           font-size: 15px !important;
         }
   }
-  .email:hover #contactEmail {
-    transform: scale(1.1);
-  }
+  // .email:hover #contactEmail {
+  //   transform: scale(1.1);
+  // }
 
-  .email:hover .fontawesome {
-    transform: scale(1.1);
-  }
+  // .email:hover .fontawesome {
+  //   transform: scale(1.1);
+  // }
 
-  .instagram:hover #contactInstagram {
-    transform: scale(1.1);
-  }
+  // .instagram:hover #contactInstagram {
+  //   transform: scale(1.1);
+  // }
      
-  .instagram:hover .fontawesome {
-    transform: scale(1.1);
-  }
+  // .instagram:hover .fontawesome {
+  //   transform: scale(1.1);
+  // }
       
   #contactEmail, #contactInstagram {
     display: flex;

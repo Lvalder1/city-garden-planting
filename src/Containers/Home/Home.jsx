@@ -13,7 +13,7 @@ export default class Home extends Component {
                     <img src={img01} alt="img_01"></img>
                 </div>
                 <div className={styles.logo}>
-                    <img src={websiteLogo} alt="Website_Logo"></img>
+                    <img src={websiteLogo} alt="website_Logo"></img>
                 </div>
             </div>
             <ContactFooter />
