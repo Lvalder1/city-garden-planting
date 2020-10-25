@@ -3,8 +3,12 @@
 .home {
     width: 100vw;
     padding: $background-padding;
-    padding-top: 66px;
+    scroll-padding-top: 77px;
 }
+
+// body {
+//     padding-top: 0;
+// }
 
 .imgCenter {
     display: flex;

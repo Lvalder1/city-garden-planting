@@ -8,7 +8,8 @@ import websiteLogo from '../../Images/city-garden-planting-logo-new.png';
 export default class Navigation extends Component {
     render () {
         return (
-            <Navbar bg="light" expand="sm" fixed="top" className={styles.nav}>
+            <>
+            <Navbar bg="light" expand="sm" sticky="top" className={styles.nav}>
                 <Navbar.Brand className={styles.brand}>
                     <img src={websiteLogo} alt="websiteLogo"></img>
                 </Navbar.Brand>
@@ -23,6 +24,7 @@ export default class Navigation extends Component {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
+            </>
         )
     }
 }
