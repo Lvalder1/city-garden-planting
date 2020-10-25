@@ -8,6 +8,8 @@
 .imgCenter {
     display: flex;
     justify-content: center; 
+    border: black 1px solid;
+    border-top: none;
 
         img {
             width: 100vw;

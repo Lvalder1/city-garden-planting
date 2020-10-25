@@ -11,6 +11,7 @@
 .middleImgs {
     display: flex;
     overflow: hidden;
+    border: black 1px solid;
         .column {
             flex: 33.33%
         }
