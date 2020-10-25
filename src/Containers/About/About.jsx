@@ -11,7 +11,7 @@ export default class About extends Component {
         return (
             <>
             <div className={styles.about}>
-                <h1 id="about">City Garden Planting – Carolyn Valder</h1>
+                <h1 id="about">CITY GARDEN PLANTING</h1>
                 <div className={styles.middleImgs}>
                     <div className={styles.column}>
                         <a href={img02} target="_blank" rel="noopener noreferrer">
