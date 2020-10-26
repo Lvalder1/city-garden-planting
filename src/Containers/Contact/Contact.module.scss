@@ -6,9 +6,8 @@
     justify-content: space-around;
     overflow: hidden;
     padding: $background-padding;
-    padding-top: 20px;
     // background-color: $background-color;
-    height: 100vh;
+    height: 85vh;
     width: 100%;
   }
 
@@ -74,11 +73,12 @@
   .instagramFooter {
     display: flex;
     flex-direction: row;
+    position: sticky;
   }
 
   .createdBy {
     width: 100%;
-    text-align: right;
+    text-align: right !important;
       a {
         text-decoration: none !important;
         color: $font-color !important;
