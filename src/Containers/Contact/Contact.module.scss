@@ -7,7 +7,7 @@
     overflow: hidden;
     padding: $background-padding;
     // background-color: $background-color;
-    height: 85vh;
+    height: 80vh;
     width: 100%;
   }
 
@@ -73,12 +73,15 @@
   .instagramFooter {
     display: flex;
     flex-direction: row;
-    position: sticky;
+    // position: fixed;
+    left: 0;
+    bottom: 0;
   }
 
   .createdBy {
     width: 100%;
     text-align: right !important;
+    float: right;
       a {
         text-decoration: none !important;
         color: $font-color !important;
