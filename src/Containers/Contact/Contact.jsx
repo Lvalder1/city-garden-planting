@@ -4,10 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeSquare} from '@fortawesome/free-solid-svg-icons';
 import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
 import websiteLogo from '../../Images/city-garden-planting-logo-new.png';
+import BottomDiv from '../../Components/ContactFooter/BottomDiv';
 
 export default class Contact extends Component {
     render () {
         return (
+            <>
             <div className={styles.contact} id="contact">
                 <div className={styles.centreDiv}>
                     <img src={websiteLogo} alt="websiteLogo"></img>
@@ -23,8 +25,9 @@ export default class Contact extends Component {
                         </div>
                     </div>
                 </div>
-                <div className={styles.bottom}></div>
             </div>
+            <BottomDiv />
+            </>
         )
     }
 }

@@ -1,0 +1,9 @@
+@import "../../../variables";
+
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    background-color: $background-color;
+    height: 40px;
+    width: 100%;
+  }
