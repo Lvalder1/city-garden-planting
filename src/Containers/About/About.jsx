@@ -11,7 +11,6 @@ export default class About extends Component {
         return (
             <>
             <div className={styles.about}>
-                <h1 id="about">CITY GARDEN PLANTING</h1>
                 <div className={styles.middleImgs}>
                     <div className={styles.column}>
                         <a href={img02} target="_blank" rel="noopener noreferrer">
@@ -30,6 +29,7 @@ export default class About extends Component {
                     </div>
                 </div>
                     <div className={styles.aboutTxt}>
+                        <h1 id="about">City Garden Planting</h1>
                         <p>I have lived in, and gardened in the same garden, in west London for over 33 years. As with most gardens, it has evolved to suit family needs over time, 
                         from an overgrown grassy plot, via cricket and football pitch to a tentative garden design and finally to a much loved, leafy, herbaceous hideaway.
                         Working over so many years   with a tricky, north facing, long and narrow site has provided me with invaluable experience in choosing the right plants for each 

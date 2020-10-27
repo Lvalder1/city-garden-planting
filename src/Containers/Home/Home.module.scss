@@ -6,6 +6,7 @@
 }
 
 .imgCenter {
+    margin-top: 5px !important;
     display: flex;
     justify-content: center; 
     border: black 1px solid;
@@ -24,7 +25,7 @@
     margin: 5px !important;
 
         img {
-            width: 15vw;
+            width: 18vw;
             height: auto;
         }
 }
