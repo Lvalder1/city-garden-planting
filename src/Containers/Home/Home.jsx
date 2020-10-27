@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styles from "./Home.module.scss";
 import ContactFooter from "../../Components/ContactFooter";
 import img01 from "../../Images/img_01.png";
-import websiteLogo from "../../Images/city-garden-planting-logo-new.png"
+import websiteLogo from "../../Images/city-garden-planting-logo-large.png"
 
 export default class Home extends Component {
     render() {
@@ -16,9 +16,9 @@ export default class Home extends Component {
                     <img src={websiteLogo} alt="website_Logo"></img>
                 </div>
             </div>
-            <div className={styles.contactFooter}>
+            <footer className={styles.contactFooter}>
                 <ContactFooter />
-            </div>
+            </footer>
             </>
         )
     }

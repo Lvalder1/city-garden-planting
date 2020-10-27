@@ -3,7 +3,7 @@ import styles from "./Contact.module.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeSquare} from '@fortawesome/free-solid-svg-icons';
 import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
-import websiteLogo from '../../Images/city-garden-planting-logo-new.png';
+import websiteLogo from '../../Images/city-garden-planting-logo-large.png';
 import BottomDiv from '../../Components/ContactFooter/BottomDiv';
 
 export default class Contact extends Component {

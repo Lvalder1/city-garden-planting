@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import styles from "./navigation.module.scss";
 import 'bootstrap/dist/css/bootstrap.css';
-import websiteLogo from '../../Images/city-garden-planting-logo-new.png';
+import websiteLogo from '../../Images/city-garden-planting-logo-large.png';
 
 export default class Navigation extends Component {
     render () {

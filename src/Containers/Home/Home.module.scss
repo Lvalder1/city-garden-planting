@@ -3,6 +3,7 @@
 .home {
     width: 100vw;
     padding: $background-padding;
+    
 }
 
 .imgCenter {
@@ -31,18 +32,24 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+    .home {
+        margin: 0 !important; 
+        height: 100%; 
+        overflow: hidden;
+    }
+
    .column:hover img {
-        transform: none;
-            
+        transform: none;       
     }
 
     .home {
         padding: 0;
+        width: 100vw;
     }
 
     .contactFooter {
-        position: fixed;
-        bottom: 0;
+        width: 100%;
     }
 }
 
