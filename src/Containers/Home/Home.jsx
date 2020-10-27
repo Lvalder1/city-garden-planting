@@ -16,7 +16,9 @@ export default class Home extends Component {
                     <img src={websiteLogo} alt="website_Logo"></img>
                 </div>
             </div>
-            <ContactFooter />
+            <div className={styles.contactFooter}>
+                <ContactFooter />
+            </div>
             </>
         )
     }
