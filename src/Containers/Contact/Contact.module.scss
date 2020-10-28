@@ -6,9 +6,7 @@
     justify-content: space-around;
     overflow: hidden;
     padding: $background-padding;
-    // background-color: $background-color;
     width: 100%;
-    // height: 100vh;
   }
 
   .centreDiv {
@@ -16,13 +14,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    overflow: hidden;
+    overflow: auto;
     margin: auto !important;
-    width: 60vw;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+
+    img {
+      height: 20vw;
+    }
  }
 
   .contactVia {
@@ -73,9 +74,13 @@
   }
 
   @media only screen and (max-width: 600px) {
-    
-    .contactVia {
-      text-align: start;
+
+    .centreDiv {
+
+      img {
+        height: auto;
+        width: 40vh;
+      }
     }
 
     #contactEmail, #contactInstagram {

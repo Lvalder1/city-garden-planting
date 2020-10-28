@@ -1,5 +1,13 @@
 @import '../../variables';
 
+html { 
+    height: 100% 
+} 
+
+body { 
+    min-height: 100% 
+}
+
 .home {
     width: 100vw;
     padding: $background-padding;
@@ -37,15 +45,17 @@
         margin: 0 !important; 
         height: 100%; 
         overflow: hidden;
-    }
-
-   .column:hover img {
-        transform: none;       
-    }
-
-    .home {
         padding: 0;
-        width: 100vw;
+        width: auto;
+    }
+
+    .logo {
+        height: 40vh;
+        width: auto;
+        img {
+            width: auto;
+            height: 100%;
+        }
     }
 
     .contactFooter {

@@ -45,7 +45,14 @@
     }
 
     .about {
-        padding: 0;
+        padding: $mobile-padding;
+    }
+
+    .aboutTxt {
+
+        p {
+            width: auto;
+        }
     }
 }
 
