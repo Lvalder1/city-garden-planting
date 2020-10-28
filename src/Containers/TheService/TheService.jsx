@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import styles from "./TheService.module.scss";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faSeedling} from '@fortawesome/free-solid-svg-icons';
-import serviceIcon from "../../Images/city-garden-planting-favicon.png"
+import serviceIcon from "../../Images/city-garden-planting-logo-silhouette.png"
 import ContactFooter from "../../Components/ContactFooter";
 
 export default class TheService extends Component {
@@ -13,7 +11,6 @@ export default class TheService extends Component {
                 <h1>The Service</h1>
                 <div className={styles.iconTextBox}>
                     <div className={styles.iconBox}>
-                        {/* <FontAwesomeIcon icon={faSeedling} size="5x"></FontAwesomeIcon> */}
                         <img src={serviceIcon} alt="serviceIcon"></img>
                     </div>
                     <div className={styles.textBox}>
@@ -26,7 +23,6 @@ export default class TheService extends Component {
                 </div>
                 <div className={styles.iconTextBox}>
                     <div className={styles.iconBox}>
-                        {/* <FontAwesomeIcon icon={faSeedling} size="5x"></FontAwesomeIcon> */}
                         <img src={serviceIcon} alt="serviceIcon"></img>
                     </div>
                     <div className={styles.textBox}>
@@ -36,7 +32,6 @@ export default class TheService extends Component {
                 </div>
                 <div className={styles.iconTextBox}>
                     <div className={styles.iconBox}>
-                        {/* <FontAwesomeIcon icon={faSeedling} size="5x"></FontAwesomeIcon> */}
                         <img src={serviceIcon} alt="serviceIcon"></img>
                     </div>
                     <div className={styles.textBox}>
@@ -53,7 +48,6 @@ export default class TheService extends Component {
                 </div>
                 <div className={styles.iconTextBox}>
                     <div className={styles.iconBox}>
-                        {/* <FontAwesomeIcon icon={faSeedling} size="5x"></FontAwesomeIcon> */}
                         <img src={serviceIcon} alt="serviceIcon"></img>
                     </div>
                     <div className={styles.textBox}>
@@ -69,7 +63,6 @@ export default class TheService extends Component {
                 </div>
                 <div className={styles.iconTextBox}>
                     <div className={styles.iconBox}>
-                        {/* <FontAwesomeIcon icon={faSeedling} size="5x"></FontAwesomeIcon> */}
                         <img src={serviceIcon} alt="serviceIcon"></img>
                     </div>
                     <div className={styles.textBox}>
@@ -82,7 +75,6 @@ export default class TheService extends Component {
                 </div>
                 <div className={styles.iconTextBox}>
                     <div className={styles.iconBox}>
-                        {/* <FontAwesomeIcon icon={faSeedling} size="5x"></FontAwesomeIcon> */}
                         <img src={serviceIcon} alt="serviceIcon"></img>
                     </div>
                     <div className={styles.textBox}>
@@ -94,7 +86,6 @@ export default class TheService extends Component {
                 </div>
                 <div className={styles.iconTextBox}>
                     <div className={styles.iconBox}>
-                        {/* <FontAwesomeIcon icon={faSeedling} size="5x"></FontAwesomeIcon> */}
                         <img src={serviceIcon} alt="serviceIcon"></img>
                     </div>
                     <div className={styles.textBox}>
