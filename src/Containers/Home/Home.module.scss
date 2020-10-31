@@ -20,11 +20,12 @@ body {
     justify-content: center; 
     border: black 1px solid;
     border-top: none;
+    height: auto;
 
         img {
-            width: 100vw;
-            height: auto;
+            width: 100%;
             overflow: hidden;
+            align-self: flex-start;
     }
 }
 
@@ -36,6 +37,7 @@ body {
         img {
             width: 18vw;
             height: auto;
+            align-self: flex-start;
         }
 }
 
@@ -55,6 +57,7 @@ body {
         img {
             width: auto;
             height: 100%;
+
         }
     }
 
