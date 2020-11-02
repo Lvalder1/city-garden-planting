@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc08e94c.chunk.css",
-    "main.js": "/static/js/main.11cf68e1.chunk.js",
-    "main.js.map": "/static/js/main.11cf68e1.chunk.js.map",
+    "main.css": "/static/css/main.32245cae.chunk.css",
+    "main.js": "/static/js/main.61bd7c65.chunk.js",
+    "main.js.map": "/static/js/main.61bd7c65.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.00e87fb4.js",
     "runtime-main.js.map": "/static/js/runtime-main.00e87fb4.js.map",
-    "static/css/2.0fa4c996.chunk.css": "/static/css/2.0fa4c996.chunk.css",
-    "static/js/2.1ec1f31a.chunk.js": "/static/js/2.1ec1f31a.chunk.js",
-    "static/js/2.1ec1f31a.chunk.js.map": "/static/js/2.1ec1f31a.chunk.js.map",
+    "static/css/2.9514f54c.chunk.css": "/static/css/2.9514f54c.chunk.css",
+    "static/js/2.cc17827c.chunk.js": "/static/js/2.cc17827c.chunk.js",
+    "static/js/2.cc17827c.chunk.js.map": "/static/js/2.cc17827c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2db211e9ef03a1c59fe6c0adcd187512.js": "/precache-manifest.2db211e9ef03a1c59fe6c0adcd187512.js",
+    "precache-manifest.ea4b870dc2797af3af61a63d78ac27bf.js": "/precache-manifest.ea4b870dc2797af3af61a63d78ac27bf.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.0fa4c996.chunk.css.map": "/static/css/2.0fa4c996.chunk.css.map",
-    "static/css/main.dc08e94c.chunk.css.map": "/static/css/main.dc08e94c.chunk.css.map",
-    "static/js/2.1ec1f31a.chunk.js.LICENSE.txt": "/static/js/2.1ec1f31a.chunk.js.LICENSE.txt"
+    "static/css/2.9514f54c.chunk.css.map": "/static/css/2.9514f54c.chunk.css.map",
+    "static/css/main.32245cae.chunk.css.map": "/static/css/main.32245cae.chunk.css.map",
+    "static/js/2.cc17827c.chunk.js.LICENSE.txt": "/static/js/2.cc17827c.chunk.js.LICENSE.txt",
+    "static/media/CV Louis Valder.pdf": "/static/media/CV Louis Valder.c4951e19.pdf",
+    "static/media/BottomDiv.module.scss": "/static/media/PlayfairDisplay-Regular.b3721ba3.ttf",
+    "static/media/city-garden-planting-logo-large.png": "/static/media/city-garden-planting-logo-large.9b9e9ea5.png",
+    "static/media/city-garden-planting-logo-silhouette.png": "/static/media/city-garden-planting-logo-silhouette.ba9e072e.png",
+    "static/media/img_01.png": "/static/media/img_01.f0c8f21d.png",
+    "static/media/img_02.jpg": "/static/media/img_02.f0e922cc.jpg",
+    "static/media/img_03.jpg": "/static/media/img_03.cc5c90e2.jpg",
+    "static/media/img_04.jpg": "/static/media/img_04.d174679b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.00e87fb4.js",
-    "static/css/2.0fa4c996.chunk.css",
-    "static/js/2.1ec1f31a.chunk.js",
-    "static/css/main.dc08e94c.chunk.css",
-    "static/js/main.11cf68e1.chunk.js"
+    "static/css/2.9514f54c.chunk.css",
+    "static/js/2.cc17827c.chunk.js",
+    "static/css/main.32245cae.chunk.css",
+    "static/js/main.61bd7c65.chunk.js"
   ]
 }
