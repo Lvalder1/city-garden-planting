@@ -78,7 +78,7 @@ export default class TheService extends Component {
                         <img src={serviceIcon} alt="serviceIcon"></img>
                     </div>
                     <div className={styles.textBox}>
-                        <h2>Maintaining the garden through the seasons</h2>
+                        <h2>Maintaining the Garden through the Seasons</h2>
                             <p>All gardens evolve over the seasons. Some plants may outgrow their space, others may fail to thrive due to inclement weather or damage by 
                             predators or are affected by a neighbour’s renovations. I’m happy to provide an update service during the gardening calendar to fill gaps, 
                             revive the colour mix or add in annuals.</p>

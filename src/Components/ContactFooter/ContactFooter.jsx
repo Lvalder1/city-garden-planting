@@ -20,7 +20,7 @@ export default class ContactFooter extends Component {
                         <FontAwesomeIcon icon={faInstagramSquare} className={styles.fontawesome} /><a href="https://www.instagram.com/carolynvalder/" id={styles.contactInstagram}>instagram.com/carolynvalder/</a> 
                     </div>
                     <div className={styles.createdBy}>
-                        <p>Website created by <a href={CV} target="_blank" rel="noopener noreferrer">Louis Valder</a></p>
+                        <p>Website created by <a href={CV} target="_blank" rel="noopener noreferrer">Louis</a></p>
                     </div>
                 </div>
             </div>
