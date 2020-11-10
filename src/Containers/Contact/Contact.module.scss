@@ -73,6 +73,15 @@
     
   }
 
+  .bottom {
+    border-top: black 1px solid;
+    position: fixed;
+    bottom: 0px;
+    background-color: $background-color;
+    height: 40px;
+    width: 100%;
+  }
+
   @media only screen and (max-width: 600px) {
 
     .centreDiv {
