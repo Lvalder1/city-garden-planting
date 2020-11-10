@@ -6,6 +6,12 @@
 
         a {
             margin: 0 10px !important;
+            text-decoration: none !important;
+            color: black;
+
+            &:hover {
+                color: rgb(63, 58, 58);
+            }
         }
 }
 
