@@ -4,6 +4,7 @@ import About from "../Containers/About";
 import TheService from "../Containers/TheService";
 import Inspiration from "../Containers/Inspiration";
 import Contact from "../Containers/Contact";
+import Sitemap from "../sitemap.xml"
 import { Router, Redirect } from "@reach/router";
 
 export default class Routes extends Component {
@@ -16,6 +17,7 @@ export default class Routes extends Component {
                     <TheService path="service" />
                     <Inspiration path="inspiration" /> 
                     <Contact path="contact" />
+                    <Sitemap path="sitemap" />
                 </Router>
                 
         );
