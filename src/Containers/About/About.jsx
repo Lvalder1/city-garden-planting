@@ -9,8 +9,8 @@ import img04 from "../../Images/img_04.jpg";
 export default class About extends Component {
     render() {
         return (
+            <>
             <div className={styles.about}>
-                <h1 id="about">City Garden Planting – Carolyn Valder</h1>
                 <div className={styles.middleImgs}>
                     <div className={styles.column}>
                         <a href={img02} target="_blank" rel="noopener noreferrer">
@@ -29,6 +29,7 @@ export default class About extends Component {
                     </div>
                 </div>
                     <div className={styles.aboutTxt}>
+                        <h1 id="about">City Garden Planting</h1>
                         <p>I have lived in, and gardened in the same garden, in west London for over 33 years. As with most gardens, it has evolved to suit family needs over time, 
                         from an overgrown grassy plot, via cricket and football pitch to a tentative garden design and finally to a much loved, leafy, herbaceous hideaway.
                         Working over so many years   with a tricky, north facing, long and narrow site has provided me with invaluable experience in choosing the right plants for each 
@@ -42,8 +43,9 @@ export default class About extends Component {
                         gardening creativity. You may wish to only be involved in a small part of maintaining your garden - planting bulbs, potting up planters or adding in some seasonal 
                         updates – I am happy to help build your confidence in all of these aspects.</p>
                     </div>
-                <ContactFooter />
             </div>
+            <ContactFooter />
+            </>
         )
     }
 }

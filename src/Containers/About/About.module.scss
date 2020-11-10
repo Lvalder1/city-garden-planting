@@ -1,17 +1,14 @@
 @import "../../variables";
 
 .about {
-    background-color: $background-color;
     padding: $background-padding;
-
-    h1 {
-        text-align: center;
-    }
 }
 
 .middleImgs {
+    margin-top: 5px !important;
     display: flex;
     overflow: hidden;
+    border: black 1px solid;
         .column {
             flex: 33.33%
         }
@@ -27,7 +24,17 @@
 }
 
 .aboutTxt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     margin: 10px 0 !important;
+    align-items: center;
+        h1 {
+            margin-bottom: 5px !important;
+        }
+            p {
+            width: 50vw;
+            }
 }
 
 @media only screen and (max-width: 600px) {
@@ -35,6 +42,17 @@
    .column:hover img {
         transform: none;
             
+    }
+
+    .about {
+        padding: $mobile-padding;
+    }
+
+    .aboutTxt {
+
+        p {
+            width: auto;
+        }
     }
 }
 

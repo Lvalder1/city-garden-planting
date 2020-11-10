@@ -1,16 +1,89 @@
 @import "../../variables";
+
   .contact {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: $background-padding;
+    width: 100%;
+  }
+
+  .centreDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+    margin: auto !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    img {
+      height: 20vw;
+    }
+ }
+
+  .contactVia {
+    text-align: center;
+    margin-top: 20px !important;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 60px;
+      
+      a {
+        font-size: 25px !important;
+        align-items: center;
+        }
+  }
+
+  .instagram {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+      
+      a {
+          font-size: 15px !important;
+        }
+  }
+      
+  #contactEmail, #contactInstagram {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none !important;
+    color: $font-color !important;
+    font-size: $font-size-contact;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  .instagramFooter {
+    display: flex;
+    flex-direction: row;
   }
 
   .fontawesome {
-    color: green;
-    margin: 0 30px !important;
+    color: black;
+    
+  }
 
-      &:hover {
-        transform: scale(1.5);
+  @media only screen and (max-width: 600px) {
+
+    .centreDiv {
+
+      img {
+        height: auto;
+        width: 40vh;
       }
+    }
+
+    #contactEmail, #contactInstagram {
+      padding-left: 5px;
+    }
   }

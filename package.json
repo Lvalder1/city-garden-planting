@@ -1,5 +1,6 @@
 {
   "name": "city_garden_planning",
+  "homepage": "http://citygardenplanting.co.uk",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,15 +1,21 @@
 @import "../../variables";
 
-.brand {
-    padding: 0 20px 0 50px;
-   #brandTop{ 
-        display: flex;
-        justify-content: center;
-   }
-        #brandBottom {
-            font-size: smaller;
+.nav {
+    font-family: $font-stack-bold;
+    border-bottom: black 1px solid;
+
+        a {
+            margin: 0 10px !important;
         }
+}
+
+.brand {
+    img {
+        width: 6vw;
+        height: auto;
+    }
 }  
+
 
 
 
