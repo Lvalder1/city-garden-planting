@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './App.module.scss';
-import Routes from '../../Routes/Routes';
+// import Routes from '../../Routes/Routes';
 import Navigation from '../../Components/navigation';
 
 function App() {
   return (
       <div className={styles.App}>
         <Navigation />
-        <Routes />
+        {/* <Routes /> */}
       </div>
   );
 }
