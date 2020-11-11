@@ -4,7 +4,7 @@ This project is a website created in React.
 
 ## Running The Project
 
-The project is being hosted at: https://city-garden-planting.web.app/
+The project is being hosted at: http://www.citygardenplanting.co.uk
 
 ## Prerequisites
 
