@@ -25,7 +25,7 @@ export default class Navigation extends Component {
                     <Navbar.Brand className={styles.brand}>
                         <img src={websiteLogo} alt="websiteLogo"></img>
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" className={styles.btn} />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto mr-0">
                         <NavItem path="/" name="HOME" />

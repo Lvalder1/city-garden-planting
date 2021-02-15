@@ -8,8 +8,9 @@
         a {
             margin: 0 10px !important;
             text-decoration: none !important;
-            font-weight: bolder !important;
-            color: white;
+            color: Black;
+            
+            
 
             &:hover {
                 color: rgb(63, 58, 58);
@@ -27,10 +28,13 @@
 .nav-item {
     a {
         color: Black !important;
+        font-style: italic;
     }
 }
 
-
+.btn {
+    outline: none !important;
+}
 
 
 
