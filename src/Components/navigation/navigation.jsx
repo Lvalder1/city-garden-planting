@@ -21,22 +21,20 @@ const NavItem = props => {
 export default class Navigation extends Component {
     render () {
         return (
-            <>
-                <Navbar bg="light" expand="sm" sticky="top" className={styles.nav}>
+                <Navbar expand="sm" sticky="top" className={styles.navbar}>
                     <Navbar.Brand className={styles.brand}>
                         <img src={websiteLogo} alt="websiteLogo"></img>
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto mr-0">
-                        <NavItem path="/" name ="HOME" />
+                        <NavItem path="/" name="HOME" />
                         <NavItem path="/about" name="ABOUT" />
                         <NavItem path="/service" name="THE SERVICE" />
                         <NavItem path="/contact" name="CONTACT" />
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-            </>
-        )
+        );
     }
 }

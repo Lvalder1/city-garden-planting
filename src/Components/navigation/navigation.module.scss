@@ -1,13 +1,15 @@
 @import "../../variables";
 
-.nav {
+.navbar {
     font-family: $font-stack-bold;
     border-bottom: black 1px solid;
+    background-color: $background-color;
 
         a {
             margin: 0 10px !important;
             text-decoration: none !important;
-            color: black;
+            font-weight: bolder !important;
+            color: white;
 
             &:hover {
                 color: rgb(63, 58, 58);
@@ -20,7 +22,14 @@
         width: 6vw;
         height: auto;
     }
-}  
+} 
+
+.nav-item {
+    a {
+        color: Black !important;
+    }
+}
+
 
 
 
