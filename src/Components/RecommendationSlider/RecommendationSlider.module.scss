@@ -8,9 +8,15 @@
 }
 
   .recommendationSlider div {
+    opacity: 0;
     animation-name: testimonial;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+}
+
+  .recommendationSlider div:nth-child(1) {
+    opacity: 1;
+    animation-delay: 0s;
 }
 
   .recommendationSlider div:nth-child(2) {
@@ -19,18 +25,18 @@
   
   .recommendationSlider div:nth-child(3) {
     animation-delay: 10s;
-    opacity: 1;
+    // opacity: 1;
 }
   
   @keyframes testimonial {
     0% {
-      opacity: 0;
+      opacity: 1;
     }
     33% {
-      opacity: 0;
+      opacity: 1;
     }
     66% {
-      opacity: 0;
+      opacity: 1;
     }
     100% {
       opacity: 1;
