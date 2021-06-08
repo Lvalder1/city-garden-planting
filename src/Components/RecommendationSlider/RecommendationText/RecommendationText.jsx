@@ -5,7 +5,7 @@ export default class RecommendationText extends Component {
     render () {
         return (
            <div className={styles.recommendationTxt}>
-               <p>Hello</p>
+               <p>{this.props.testimonialTxt}</p>
            </div>
         )
     }

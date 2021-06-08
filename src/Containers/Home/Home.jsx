@@ -3,7 +3,7 @@ import styles from "./Home.module.scss";
 import ContactFooter from "../../Components/ContactFooter";
 import img01 from "../../Images/img_01.png";
 import websiteLogo from "../../Images/city-garden-planting-logo-large.png"
-import RecommendationText from "../../Components/RecommendationSlider/RecommendationText";
+import RecommendationSlider from "../../Components/RecommendationSlider";
 
 export default class Home extends Component {
     render() {
@@ -16,7 +16,7 @@ export default class Home extends Component {
                 <div className={styles.logo}>
                     <img src={websiteLogo} alt="website_Logo"></img>
                 </div>
-                <RecommendationText />
+                <RecommendationSlider />
             </div>
             <footer className={styles.contactFooter}>
                 <ContactFooter />

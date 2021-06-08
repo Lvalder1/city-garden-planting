@@ -6,7 +6,12 @@ export default class RecommendationSlider extends Component {
     render () {
         return (
            <div className={styles.recommendationSlider}>
-               <RecommendationText />
+               <RecommendationText 
+                    testimonialTxt="Very good work" />
+               <RecommendationText 
+                    testimonialTxt="Very quick" />
+               <RecommendationText 
+                    testimonialTxt="Would recommend again" />
            </div>
         )
     }
