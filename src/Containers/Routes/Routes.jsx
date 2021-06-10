@@ -6,18 +6,18 @@ import TheService from "../TheService";
 import Contact from "../Contact";
 
 
-const NotFound = () => (<h2>Not Found</h2>);
+// const NotFound = () => (<h2>Not Found</h2>);
 
 export default class Routes extends Component {
     render () {
         return (
             <>
                 <Router>
-                    <Home path="/"  />
-                    <About path="about" />
-                    <TheService path="service" />
-                    <Contact path="contact" />
-                    <NotFound default />
+                    <Home default />
+                    <About path="/about" />
+                    <TheService path="/service" />
+                    <Contact path="/contact" />
+                    {/* <NotFound default /> */}
                 </Router>
             </>
         );
