@@ -16,7 +16,7 @@ export default class Home extends Component {
                 <div className={styles.logo}>
                     <img src={websiteLogo} alt="website_Logo"></img>
                 </div>
-                <RecommendationSlider />
+                {/* <RecommendationSlider /> */}
             </div>
             <footer className={styles.contactFooter}>
                 <ContactFooter />
